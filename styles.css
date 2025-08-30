@@ -1,0 +1,55 @@
+body {
+    height: 2000px;
+    margin: 0;
+}
+
+p {
+    display: inline;
+}
+
+span {
+    display: block;
+}
+
+.container{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid black;
+}
+
+#p-one{
+    display: none;
+}
+
+.fixed-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: darkblue;
+    padding: 10px;
+    text-align: center;
+}
+
+h2{
+    position: sticky;
+    top: 0;
+    background-color: orange;
+    padding: 10px;
+    margin: 0;
+}
+
+section{
+    height: 500px;
+    padding: 20px;
+}
+
+.one {background: lightblue;}
+.two { background: lightgreen;}
+.three { background: lightpink;}
+
+img{
+    float: right;
+}
